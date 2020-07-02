@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:gravity="right"
+        android:gravity="end"
         android:textColor="#fff"/>
 
     <!--显示当天的最低温度-->
@@ -39,6 +39,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:gravity="right"
+        android:gravity="end"
         android:textColor="#fff"/>
 </LinearLayout>

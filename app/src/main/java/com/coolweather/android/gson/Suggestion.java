@@ -3,21 +3,21 @@ package com.coolweather.android.gson;
 import com.google.gson.annotations.SerializedName;
 
 public class Suggestion {
-    @SerializedName( " comf" )
+    @SerializedName("comf")
     public Comfort comfort;
-    @SerializedName("cW" )
+    @SerializedName("cw")
     public CarWash carWash;
-    public Sport sport ;
+    public Sport sport;
 
-    public class Comfort {
-        @SerializedName("txt" )
-        public String info;
-    }
-    public class CarWash {
+    public static class Comfort{
         @SerializedName("txt")
         public String info;
     }
-    public class Sport {
+    public static class CarWash {
+        @SerializedName("txt")
+        public String info;
+    }
+    public static class Sport{
         @SerializedName("txt")
         public String info;
     }

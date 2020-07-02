@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 //总的实例类引用各个实体类
-public class Weather {
+public class Weather{
     public String status;
     public Basic basic;
     public AQI aqi;
